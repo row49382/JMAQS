@@ -171,6 +171,24 @@
 					<uniqueVersion>true</uniqueVersion>
 				</configuration>
 			</plugin>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-dependency-plugin</artifactId>
+				<version>3.1.1</version>
+				<executions>
+					<execution>
+						<id>purge-local-dependencies</id>
+						<phase>process-sources</phase>
+						<goals>
+							<goal>purge-local-repository</goal>
+						</goals>
+						<configuration>
+							<snapshotsOnly>true</snapshotsOnly>
+							<reResolve>false</reResolve>
+						</configuration>
+					</execution>
+				</executions>
+			</plugin>
 
 			<!--<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
