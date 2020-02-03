@@ -70,7 +70,7 @@
 			<id>JMAQS_SnapShot</id>
 			<url>https://pkgs.dev.azure.com/MagenicOpen/JMAQS/_packaging/JMAQS_SnapShot/maven/v1</url>
 			<releases>
-				<enabled>true</enabled>
+				<enabled>false</enabled>
 			</releases>
 			<snapshots>
 				<enabled>true</enabled>
@@ -78,11 +78,11 @@
 		</repository>
 	</repositories>
 	<distributionManagement>
-		<repository>
+		<!--<repository>
 			<id>JMAQS_SnapShot</id>
 			<url>https://pkgs.dev.azure.com/MagenicOpen/JMAQS/_packaging/JMAQS_SnapShot/maven/v1</url>
 			<uniqueVersion>true</uniqueVersion>
-		</repository>
+		</repository>-->
 		<snapshotRepository>
 			<id>JMAQS_SnapShot</id>
 			<url>https://pkgs.dev.azure.com/MagenicOpen/JMAQS/_packaging/JMAQS_SnapShot/maven/v1</url>
