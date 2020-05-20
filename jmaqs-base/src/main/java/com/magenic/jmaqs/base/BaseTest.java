@@ -35,6 +35,8 @@ import org.testng.annotations.BeforeMethod;
  */
 public abstract class BaseTest {
 
+  // trigger some change - DO NOT MERGE
+  
   /**
    * All logged exceptions caught and saved to be thrown later.
    */
